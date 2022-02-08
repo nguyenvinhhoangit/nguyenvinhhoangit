@@ -1,0 +1,139 @@
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 1070px) {
+  .header{
+    .header_top{
+      .container{
+        .row{
+          .col-right{
+            display:none;
+            position: absolute;
+            z-index: 9999999;
+            bottom: -4px;
+            .right-list{
+              padding:10px  30px;
+              background-color: chocolate;
+              position: absolute;
+              left: -400px;
+              bottom: -238px;
+             .right-item{
+               display:block;
+               .dropdown-list{
+                 position: absolute;
+                 left: 138px;
+                 top: 3px;
+               }
+             }
+            }
+          }
+        }
+          .col-left{
+           text-align: center;
+           position: relative;
+          }
+          .col-left::before{
+            content: '\f0c9';
+            color: #fff;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 30px;
+            top: 65px;
+            box-sizing: inherit;
+            font-size:50px
+          }
+      }
+    }
+  }
+  .main{
+    display: none;
+  }
+  .aside{
+    .container{
+      .row{
+        .aside-col{
+          width: 50%;
+          margin-bottom:30px;
+        }
+      }
+    }
+  }
+  .footer{
+    .item-info{
+      display:none;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header{
+    .header_top{
+      .container{
+        .row{
+          .col-right{
+            display:none;
+            position: absolute;
+            z-index: 9999999;
+            bottom: -4px;
+            .right-list{
+              padding:10px  30px;
+              background-color: chocolate;
+              position: absolute;
+              left: -200px;
+              bottom: -238px;
+             .right-item{
+               display:block;
+               .dropdown-list{
+                 position: absolute;
+                 left: 138px;
+                 top: 3px;
+               }
+             }
+            }
+          }
+        }
+          .col-left{
+           text-align: center;
+           position: relative;
+          }
+          .col-left::before{
+            content: '\f0c9';
+            color: #fff;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 30px;
+            top: 65px;
+            box-sizing: inherit;
+            font-size:50px
+          }
+      }
+    }
+  }
+  .main{
+    display: none;
+  }
+  .aside{
+    .aside-col{
+      width: 100%;
+    }
+  }
+  .footer{
+    .item-info{
+      display:none;
+    }
+  }
+  .aside{
+    .container{
+      .row{
+        .aside-col{
+          width: 100%;
+          margin-right: 50px;
+
+        }
+      }
+    }
+  }
+}

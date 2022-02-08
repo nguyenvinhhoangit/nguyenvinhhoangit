@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> &ndash; SWE (STREETWEAREAZY)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://swe.vn/" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .croll{
+      padding: 10px;
+      position:fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+      opacity: 0.95;
+    }
+    .mess{
+      width: 100px;
+      height: 100px;
+      border-radius:50px;
+      opacity: 0.95;
+    }
+    input{
+      border-radius: 4px;
+      border: 1px solid #eee;
+      transition: 0.3s ease;
+       
+    }
+    input:focus{
+      border-color:chocolate;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-left">
+              <div class="wrap-img"><a  target="_blank" href="https://khoapham.vn/"><img  src="swe.jpg" alt=""></a></div>
+          </div>
+          <div class="col-right">
+              <ul class="right-list">
+                <li class="right-item"><a href="#">HOME</a></li>
+                <li class=" drop-down right-item"><a href="#">TOPS</a>
+                  <ul class="dropdown-list">
+                    <li class="dropdown-item"><a href="#">Tee shirt</a></li>
+                    <li class="dropdown-item"><a href="#">Jacket</a></li>
+                    <li class="dropdown-item"><a href="#"> Short's </a></li>
+                    <li class="dropdown-item"><a href="#">Jean</a></li>
+                  </ul>
+                </li>
+                <li class="right-item"><a href="#">OUTERWEAR</a></li>
+                <li class="right-item"><a href="#">BOTTOMS</a></li>
+                <li class="drop-down right-item">
+                  <a href="#">SALE</a>
+                  <ul class="dropdown-list">
+                    <li class="dropdown-item"><a href="#">SALE 10%  </a></li>
+                    <li class="dropdown-item"><a href="#">SALE 20% </a></li>
+                    <li class="dropdown-item"><a href="#">SALE 30%</a></li>
+                    <li class="dropdown-item"><a href="#">SALE 40%</a></li>
+                    <li class="dropdown-item"><a href="#">SALE 50%</a></li>
+                  </ul>
+                </li>
+                <li class=" drop-down right-item"><a href="#">SIZE CHART</a>
+                  <ul class="dropdown-list">
+                    <li class="dropdown-item"><a href="#"> Size XS</a></li>
+                    <li class="dropdown-item"><a href="#">Size S </a></li>
+                    <li class="dropdown-item"><a href="#">Size M</a></li>
+                    <li class="dropdown-item"><a href="#">Size L</a></li>
+                    
+                  </ul></li>
+                <li class="drop-down right-item"><a href="#">LOGIN</a>
+                  <ul class="dropdown-list">
+                    <li style="border-bottom:none;" class="dropdown-item"><a href="#"> User Name</a></li>
+                    <li class="dropdown-item"><a href="#"><input style="padding: 5px; " type="text" placeholder="Tên Đăng Nhập"></a></li>
+                    <li style="border-bottom: none;" class="dropdown-item"><a href="#">Password</a></li>
+                    <li style="border-bottom:none  ;" class="dropdown-item"><a href="#"><input style="padding:5px; " type="password" placeholder="Mật Khẩu"></a></li>
+                    
+                  </ul></li></li>
+                <li class="right-item"><a href="#">ABOUT US </a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <section class="top-view">
+    <div class="logo">
+      <h4>NEW PRODUCT</h4>
+    </div>
+    <div class="row">
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="1.jpg" alt="">
+              <div class="item-img"></div>
+            </div>
+            <div class="box bg-1">
+              <div class="content">
+                <div class="info">
+                  <p>TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="2.jpg" alt="">
+            </div>
+            <div class="box bg-2">
+              <div class="content">
+                <div class="info">
+                  <p>TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="3.jpg" alt="">
+            </div>
+            <div class="box bg-3">
+              <div class="content">
+                <div class="info">
+                  <p>TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="4.jpg" alt="">
+            </div>
+            <div class="box bg-4">
+              <div class="content">
+                <div class="info">
+                  <p >TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="5.jpg" alt="">
+            </div>
+            <div class="box bg-5">
+              <div class="content">
+                <div class="info">
+                  <p>TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <div class="image">
+              <img src="6.jpg" alt="">
+            </div>
+            <div class="box bg-6">
+              <div class="content">
+                <div class="info">
+                  <p>TYPE SWEATPANTS - MAUVE</p>
+                  <p class="text-item">450,000₫</p>
+                </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item">
+              <div class="image">
+                <img src="7.jpg" alt="">
+              </div>
+              <div class="box bg-6">
+                <div class="content">
+                  <div class="info">
+                    <p>TYPE SWEATPANTS - MAUVE</p>
+                    <p class="text-item">450,000₫</p>
+                  </div>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item">
+                <div class="image">
+                  <img src="8.jpg" alt="">
+                </div>
+                <div class="box bg-6">
+                  <div class="content">
+                    <div class="info">
+                      <p>TYPE SWEATPANTS - MAUVE</p>
+                      <p class="text-item">450,000₫</p>
+                    </div>                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="item">
+                  <div class="image">
+                    <img src="9.jpg" alt="">
+                  </div>
+                  <div class="box bg-6">
+                    <div class="content">
+                      <div class="info">
+                        <p>TYPE SWEATPANTS - MAUVE</p>
+                        <p class="text-item">450,000₫</p>
+                      </div>                  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+        <div class="logo view">
+          <h4 style="font-size:30px">VIEW ALL</h4>
+        </div>
+    </div>
+  </section>
+  <main class="main">
+    <div class="content-main">
+      <div class="img-main">
+        <img src="item.jpg" alt="">
+      </div>
+      <div class="us-main">
+        <h1 class="text-us">ABOUT US</h1>
+          <div class="list-main">
+            <ul class="index">
+              <li style="font-family:  'PN', sans-serif;color: rgb(100, 98, 98);" class="list_item-main">📍 350 Điện Biên Phủ, Bình Thạnh</li>
+              <li style="margin-bottom:10px"></li>
+              <li  style="margin-bottom:10px;font-family:  'PN', sans-serif;color: rgb(100, 98, 98);"class="list_item-main">📍 44A Trần Quang Diệu, Quận 3, HCMC</li>
+              <li style="margin-bottom: 10px;font-family:  'PN', sans-serif;color: rgb(100, 98, 98);" class="list_item-main">📍 TNP Lê Lai (đối diện 90 Lê Lai), Quận 1, HCMC</li>
+              <li style="margin-bottom:10px;font-family:  'PN', sans-serif;color: rgb(100, 98, 98);"; class="list_item-main">📍136 Nguyễn Hồng Đào, Tân Bình, HCMC</li>
+              <li style="margin-bottom:10px;font-family:  'PN', sans-serif;color: rgb(100, 98, 98);" class="list_item-main">📍 235 Phan Trung, Biên Hoà</li>
+              <li  style="margin-bottom:10px;font-family:  'PN', sans-serif;color: rgb(100, 98, 98);"class="list_item-main">📍 Vincom Bà Triệu, Hà Nội</li>
+            </ul>
+            <p style="font-family:  'PN', sans-serif;color: rgb(100, 98, 98); margin-top: 30px;">©2021 SWE!</p>
+            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 50px;color: rgb(238, 106, 30); margin: 80px 100px;">THANK ALL</h1>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px;font-family: 'PN', sans-serif;" src="10.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          390,000₫
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="11.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="12.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="13.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="33.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="34.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div  style="text-align: center;    font-family: 'PN', sans-serif;"class="col">
+          <img style="width:300px" src="35.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="36.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="37.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="38.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;    font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="30.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+        <div style="text-align: center;font-family: 'PN', sans-serif;" class="col">
+          <img style="width:300px" src="20.jpg" alt="">
+          <p>FACILE LONG SLEEVES TEE</p>
+          <p>390,000₫</p>
+        </div>
+      </div>
+      <div class="item-info">
+        <div class="col">
+          <img style="width:350px;" src="50.jpg" alt="">
+          <h1>LOGO CAP - RED</h1>
+          <h1  style="margin: 80px -140px;"   class="price">270,000₫</h1>
+        </div>
+        <div class="col">
+          <img style="width:350px;" src="51.jpg" alt="">
+          <h1>LOGO CAP - RED</h1>
+          <h1 style="margin: 80px -140px;"  class="price">270,000₫</h1>
+        </div>
+        <div class="col">
+          <img style="width:350px;" src="52.jpg" alt="">
+          <h1>BASIC WASHED TEE - BROWN</h1>
+          <h1 style="margin: 80px -250px;"  class="price">270,000₫</h1>
+          <div style=" margin: 120px 180px; font-weight: none;" class="info-item">
+            <ul>
+              <li>Form áo Châu Âu</li>
+              <li>Định lượng : 220 gsm.</li>
+              <li>100% cotton.</li>
+              <li>Sản phẩm được in lụa</li>
+              <li>Tag logo được gắn ở tay áo.</li>
+              <li>Tem chống hàng giả của SWE được may trong sườn áo.</li>
+              <li>Các bạn vui lòng tham khảo bảng size chart trước khi đặt hàng.</li>
+            </ul>
+           </div>
+        </div>
+        <div class="col">
+          <img style="width:350px;" src="53.jpg" alt="">
+          <h1>BASIC WASHED TEE - RED</h1>
+          <h1 style="margin: 80px -225px;" class="price">270,000₫</h1>
+          <div style="    margin: 120px 150px; font-weight: none;" class="info-item">
+            <ul>
+              <li>Form áo Châu Âu</li>
+              <li>Định lượng : 220 gsm.</li>
+              <li>100% cotton.</li>
+              <li>Sản phẩm được in lụa</li>
+              <li>Tag logo được gắn ở tay áo.</li>
+              <li>Tem chống hàng giả của SWE được may trong sườn áo.</li>
+              <li>Các bạn vui lòng tham khảo bảng size chart trước khi đặt hàng.</li>
+            </ul>
+           </div>
+        </div>
+        <div class="col">
+          <img style="width:350px;" src="54.jpg" alt="">
+          <h1>BASIC WASHED TEE - BlUE</h1>
+          <h1 style="margin: 80px -225px;" class="price">270,000₫</h1>
+          <div style="    margin: 120px 150px; font-weight: none;" class="info-item">
+            <ul>
+              <li>Form áo Châu Âu</li>
+              <li>Định lượng : 220 gsm.</li>
+              <li>100% cotton.</li>
+              <li>Sản phẩm được in lụa</li>
+              <li>Tag logo được gắn ở tay áo.</li>
+              <li>Tem chống hàng giả của SWE được may trong sườn áo.</li>
+              <li>Các bạn vui lòng tham khảo bảng size chart trước khi đặt hàng.</li>
+            </ul>
+           </div>
+        </div>
+        <div class="col">
+          <img style="width:350px;" src="55.jpg" alt="">
+          <h1>BASIC WASHED TEE - BlUE</h1>
+          <h1 style="margin: 80px -225px;" class="price">270,000₫</h1>
+          <div style="    margin: 120px 150px; font-weight: none;" class="info-item">
+           <ul>
+             <li>Form áo Châu Âu</li>
+             <li>Định lượng : 220 gsm.</li>
+             <li>100% cotton.</li>
+             <li>Sản phẩm được in lụa</li>
+             <li>Tag logo được gắn ở tay áo.</li>
+             <li>Tem chống hàng giả của SWE được may trong sườn áo.</li>
+             <li>Các bạn vui lòng tham khảo bảng size chart trước khi đặt hàng.</li>
+           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="discount">
+    <div class="row">
+      <img src="nike.jpg" alt="">
+     <span>©2021 SWE, LLC. All Rights Reserved.</span>
+    </div>
+  </div>
+  <aside class="aside">
+    <div class="container">
+      <div class="row">
+        <div class="aside-col">
+          <h4  class="aside-item">company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="aside-col">
+          <h4  class="aside-item">get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="aside-col">
+          <h4 class="aside-item">online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="aside-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="croll">
+    <img class="mess" src="mess.jpg" alt="">
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script><script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+</body>
+</html>
